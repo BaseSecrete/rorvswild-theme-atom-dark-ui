@@ -7,7 +7,7 @@
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/BaseSecrete/rorvswild-theme/atom/rorvswild-dark-theme/rorvswild-dark-ui",
+  "repository": "https://github.com/BaseSecrete/rorvswild-theme-atom-dark-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
