@@ -7,7 +7,7 @@
 
 .tab-bar {
   background-color: @tab-bar-background-color;
-  border-bottom: 1px solid @base-border-color;
+  border-bottom: 0px solid @base-border-color;
 
   .tab {
     color: @text-color;
@@ -15,15 +15,20 @@
     line-height: @tab-height;
     font-size: @font-size;
     border-right: 1px solid @tab-border-color;
-    background-color: @tab-background-color;
+    background-color: transparent;
 
     .title {
-      text-align: center;
+      padding-right: 8px;
     }
 
     &.active {
       color: @text-color-selected;
-      background-color: @tab-background-color-active;
+      background-color: @app-background-color;
+      flex: 1;
+
+      .title {
+        padding-right: 8px;
+      }
     }
 
     // Modified Icon (the circle) -------------------

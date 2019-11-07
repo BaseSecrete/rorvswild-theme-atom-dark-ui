@@ -1,15 +1,22 @@
 .settings-view {
-  background: #1d2530;
+  background: @app-background-color;
+}
+
+.settings-view .section:first-child,
+.settings-view .section:last-child {
+  padding: 48px;
 }
 
 .settings-view section .section-heading,
 .settings-view .section .section-heading {
   font-size: 2.074rem;
+  color: @text-color;
 }
 
 .settings-view .sub-section .sub-section-heading {
   font-size: 1.728rem;
-  background-color: #1d2530;
+  background-color: @app-background-color;
+  color: @text-color;
 }
 
 .settings-view .package-card {
@@ -28,7 +35,7 @@
 
 .settings-view .alert-info {
   background: #212834;
-  color: #7babe8;
+  color: #80abe3;
 }
 
 .input-checkbox:before,
